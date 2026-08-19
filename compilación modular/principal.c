@@ -17,9 +17,10 @@
 * - Comprimir todo y enviarlo asignación
 **************************************/
 
-
+//Funcion principal del programa que llama a la intefaz modulo.h
  int main(int argc, char *argv[]) {
 
+	//Funcion de modulo.h que valida el numero de argumentos de entrada
 	funcIngreso(argc);
 
 	//Variables iniciales
@@ -34,8 +35,8 @@ matrixB = (double **)malloc(N*sizeof(double *));
 matrixC = (double **)malloc(N*sizeof(double *));
     for(int i=0; i<N;i++) {
         matrixA[i] = (double *)malloc(N*sizeof(double));
-	matrixB[i] = (double *)malloc(N*sizeof(double));
-	matrixC[i] = (double *)malloc(N*sizeof(double));
+		matrixB[i] = (double *)malloc(N*sizeof(double));
+		matrixC[i] = (double *)malloc(N*sizeof(double));
 }
 
 //Inicializacion de las matrices
@@ -55,7 +56,7 @@ iniMatrix(matrixB,N);
 	//Liberar espacio en memoria
 
     for(int i=0; i<N;i++) {
-        free(matrixA[i]);
+    free(matrixA[i]);
 	free(matrixB[i]);
 	free(matrixC[i]);
 } 
