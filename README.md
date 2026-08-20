@@ -1,7 +1,7 @@
-# Sistemas-Operativos
-Repositorio de la asignatura sistemas operativos organizados por asunto
+# Operating-Systems
+Repository for the Operating Systems course, organized by topic.
 
-Todos las asignaciones colocadas durante la clase serán subidas únicamente por aqui. En las asignaciones del campus virtual se anexará un documento word con el enlace al repositorio.
+All assignments given during class will be uploaded exclusively here. For assignments on the virtual campus, a Word document containing the link to the repository will be attached.
 
 
 
