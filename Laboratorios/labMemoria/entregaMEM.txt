@@ -1,0 +1,14 @@
+Autor: David Vallejo
+Fecha: 26 de agosto
+
+Localidad Espacial:
+Colocación de datos nuevos cercanos al procesador
+usualmente se colora en los l (l1,l2,l3)  por motivos de velocidad y cercanía al procesador 
+Localidad Temporal:
+Reutilización de datos en poco tiempo por lo tanto se tienen que estar cerca del procesador igualmente
+(l1,l2,l3)
+ Memoria dinámica:
+Utiliza un tamaño solicitado que se puede cambiar ajustado a los procesos que se estén realizando.
+ Memoria estática:
+Utiliza un tamaño reservado fijo de espacio antes de que el programa se ejecute
+
