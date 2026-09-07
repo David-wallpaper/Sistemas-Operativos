@@ -85,41 +85,44 @@ void liberarVector(vectorDin *V){
 }
 
 int main(){
+
     /*Creación de vector para edición*/
     vectorDin editor;
+
     /*Inicializa el vector*/
     iniVector(&editor);
 
     /*Aumentar el tamaño del vector*/
     resizeVector(&editor, 8);
 
-    /*Agregar la palabra hola al vector en el índice 0*/
+    /*Agregar elementos al vector*/
     addVector(&editor, "Hola");
-    /* Se agrega al final del vector con la palabra Profesional */
     addVector(&editor, " Profesional");
-    /*Se agrega al final del vector con la palabra en*/
     addVector(&editor, " en");
-    /*Se agrega al final del vector con la palabra en formación*/
-    addVector(&editor, "formación");
+    addVector(&editor, " Formación");
 
-    /*Imprimir por elemento del vector*/
+    /*Imprimir contenido del vector*/
     for(int i=0; i< totalVector(&editor); i++)
         printf("%s", (char *) getVector(&editor, i));
+
     printf("\n\n");
 
-    /*Liberar espacio en memoria*/
+    /*Eliminar Profesional*/
     borrarVector(&editor, 1);
 
-    /*Se agrega en la posición 1, el vector con la palabra Excelente*/
-    setVector(&editor, 1, "Excelente");
+    /*Cambiar en por Mundo*/
+    setVector(&editor, 1, " Mundo");
 
-    /*Imprimir por elemento de vector*/
+    /*Eliminar Formación*/
+    borrarVector(&editor, 2);
+
+    /*Imprimir contenido final*/
     for(int i=0; i< totalVector(&editor); i++)
         printf("%s", (char *) getVector(&editor, i));
     printf("\n\n");
 
-
-    /*Liberar espacio en memoria reservado*/
+    /*Liberar memoria*/
     liberarVector(&editor);
+
+    return 0;
 }
-    /*            */
