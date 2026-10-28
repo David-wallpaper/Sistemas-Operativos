@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+#include <fcntl.h>
 
 #define FIFO_FILE "MYFIFO"
 
@@ -43,6 +44,6 @@ int main() {
         close(fd);
         break;
     }
-
-
+    }
+    return 0;
 }
