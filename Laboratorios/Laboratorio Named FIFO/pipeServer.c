@@ -4,13 +4,13 @@
  Fecha: 28 de octubre de 2026
  Tema: ejercicio de named pipe FIFO
 ###############################################*/
-
+#define _XOPEN_SOURCE 700
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
 #include <fcntl.h>
-
+#include <sys/stat.h>
 
 #define FIFO_FILE "MYFIFO"
 
