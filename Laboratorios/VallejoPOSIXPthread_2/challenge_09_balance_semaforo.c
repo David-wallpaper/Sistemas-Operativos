@@ -1,7 +1,6 @@
 /*
  * Hilos SO 2parte - pagina 8 - Challenge 09
- * La diapositiva deja incompletas la creacion del segundo hilo, los
- * pthread_join y el manejo del semaforo. Se completaron.
+ * Se completaron.
  * Cada acceso a balance se protege con sem_wait/sem_post.
  */
 #include <pthread.h>

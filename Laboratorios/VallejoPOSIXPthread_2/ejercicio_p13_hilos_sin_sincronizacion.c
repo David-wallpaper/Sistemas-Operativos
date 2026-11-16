@@ -2,8 +2,6 @@
  * Mod_3_Cap02_HPC - pagina 13 - Sincronizacion de hilos Pthreads
  * Tres hilos ejecutan su funcion sin proteger la salida. El orden de
  * sus mensajes puede cambiar en cada ejecucion.
- * Cambio de seguridad respecto a la diapositiva: se evita el overflow
- * de 'cont' usando unsigned (con aritmetica modular definida en C).
  */
 #include <stdio.h>
 #include <stdlib.h>

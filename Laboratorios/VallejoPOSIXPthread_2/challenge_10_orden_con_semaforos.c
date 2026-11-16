@@ -2,8 +2,7 @@
  * Hilos SO 2parte - pagina 9 - Challenge 10
  * Misma frase que Challenge 05, pero ahora en orden determinado:
  * f3: Estoy aprendiendo, f2: de forma rapida..., f1: porque soy...
- * El PDF repite el codigo de Challenge 05 y muestra esta salida; aqui
- * se incorporan los semaforos necesarios para garantizarla.
+
  */
 #include <pthread.h>
 #include <semaphore.h>

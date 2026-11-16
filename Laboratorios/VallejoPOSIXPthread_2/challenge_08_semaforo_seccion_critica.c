@@ -1,6 +1,5 @@
 /*
  * Hilos SO 2parte - pagina 7 - Challenge 08
- * La diapositiva deja por completar sem_wait, sem_post, joins e init/destroy.
  * Se usa un semaforo binario para impedir entradas simultaneas.
  */
 #include <pthread.h>

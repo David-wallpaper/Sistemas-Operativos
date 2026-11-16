@@ -1,6 +1,6 @@
 /*
- * Mod_3_Cap02_HPC - pagina 14 - Sincronizacion con mutex
- * Mismo ejemplo de pagina 13, ahora una exclusion mutua protege
+ * Mod_3_Cap02_HPC - p14 - Sincronizacion con mutex
+ * Mismo ejemplo de p13, ahora una exclusion mutua protege
  * cada seccion completa: inicio, trabajo y final de cada hilo.
  */
 #include <stdio.h>

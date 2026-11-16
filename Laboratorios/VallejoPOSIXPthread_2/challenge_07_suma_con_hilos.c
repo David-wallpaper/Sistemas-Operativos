@@ -1,6 +1,6 @@
 /*
  * Hilos SO 2parte - pagina 4 - Challenge 07
- * Diapositiva INCOMPLETA. Se completaron las llamadas pthread_create,
+ * Se completaron las llamadas pthread_create,
  * function(-1) y pthread_join para mostrar una posible condicion de carrera.
  * La variable global sum se modifica SIN proteccion por ambos hilos.
  * Por eso el resultado NO tiene por que ser 0.

@@ -1,8 +1,7 @@
 /*
  * Mod_3_Cap02_HPC - pagina 8 - Ejercicio
  * Ejemplo de creacion de un hilo, verificacion y pthread_join.
- * Se ajusta el mensaje del PDF que confunde un codigo de retorno (0)
- * con el identificador del hilo: ahora informa exito en la creacion.
+ * 
  */
 #include <stdio.h>
 #include <stdlib.h>
