@@ -1,8 +1,5 @@
 /*
- * Hilos SO 2parte - pagina 3 - Challenge 06
  * Suma secuencial: primero +1 y luego -1. Resultado esperado: 0.
- * El PDF establece NUM_LOOPS = 900000000.
- * Para pruebas rapidas: gcc ... -DNUM_LOOPS=10000.
  */
 #include <stdio.h>
 
